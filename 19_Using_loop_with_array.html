@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture - 19</title>
+</head>
+<body>
+    <h2>Lecture - 19 | Using loops with arrays</h2>
+</body>
+     <script>
+        let num = [2, 4, 5, 10, 11, 12, 13]
+
+        // for(let i=0; i<num.lenght; i++){                not working????????
+        //     console.log(num[i]);
+        // }
+
+
+        //forEach
+        /*
+        num.forEach((element)=>{
+            console.log(element*element)
+        })
+        */
+
+        //Array.from
+        
+        let name = "Anuj"
+        
+        // let arr = Array.from(name)
+        // console.log(arr)
+        
+
+        //for...of
+        // for (let i of name){
+        //     console.log(i)
+        // }
+
+        for (let i in name){
+            // console.log(name.[i])
+        }
+     </script>
+</html>

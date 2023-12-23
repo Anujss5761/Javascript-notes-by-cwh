@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture - 15</title>
+</head>
+<body>
+    <h2>Lecture - 15 | Chapter - 04 | Practice Set</h2>
+    <script>
+        // Problem 01
+       /*
+        let name = 'Anuj\"'
+         console.log(name.length)
+         */
+
+        // Problem 02
+        /*
+        const sentence = 'The quick brown fox jumps over the lazy dog.';
+        const ward = 'fox';
+        // console.log(sentence.includes(ward));
+        console.log(`The word "${ward}" ${sentence.includes(ward) ? "is" : "is not" } in the sentence. `)
+        */
+
+        /*
+        const sentence = 'Good evening respected seniors. \n My name is Anuj Kashyap, \n Chemical Engineering Branch B.Tech 1st year. \n I am from Firozabad. \n My hobbies are singing and dancing.   ';
+        const name = 'Anuj';
+        // const branch = 'Chemical Engineering'
+        // const Year = 'B.Tech 1st Year'
+        // const city = 'Firozabad'
+        // const hobbies = 'Football'
+        console.log(sentence.includes(name,
+        // branch,Year,city,hobbies
+        )
+        );
+        */
+
+        // Problem 03
+
+        // let name = "Anuj"
+        // console.log(name.startsWith())
+        // console.log(name.endsWith())
+
+        // Problem 04
+
+        let str = "Please give me Rs1000"
+        // let amount = Number.parseInt(str.slice(10));
+        // let amount = str.slice("Please give meRs ".length)
+        let amount = Number.parseInt(str.slice(17));
+        console.log(amount)
+        // console.log(str.length)
+        console.log(typeof amount)
+        // console.log(str)
+
+        // Problem 05
+
+        let friend = "Shivam";
+        friend[0] = "A";
+        console.log(friend) // Friends is not changed, because strings is immutable.
+    </script>
+</body>
+</html>
