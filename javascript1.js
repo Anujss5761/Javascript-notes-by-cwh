@@ -1,1 +1,1 @@
-consloe.console.log()(This is Apple.)
+// consloe.console.log()(This is Apple.)
