@@ -11,9 +11,6 @@ let p1 = new Promise((resolve, reject)=>{
 
 
 
-
-
-
 // Reject
 let p2 = new Promise((resolve, reject)=>{
     console.log("Promise is pending");
