@@ -5,25 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
-    JavaScrpit
-</body>
+    
+    <!-- <div id="box" ondrop="drop(event)" ondragover="allowDrop(event)"
+    style="border:1px solid black; width:200px; height: 200px;"></div>
+
+    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg" draggable="true" ondragstart="drag(event)" width="150" height="150" alt=""> -->
+
+    <div 
+    style="display: flex; flex-direction: row;
+    justify-content: center; align-items: center;"
+    >
+        <!-- <svg width="1000" heigth="1000">
+            <circle cx="100" cy="100" r="50" fill="red" >
+        
+            </svg> -->
+    
+            <svg width="1000" heigth="1000">
+                <rect width="250" height="100" x="20" y="50" fill="yellow">
+                    <animate begin="click" attributeName="fill" from="green" to="blue" dur="5s" 
+                    fill="freeze" repeatCount="2">
+
+                    </animate>
+            </rect>
+
+
+                    
+                </svg>
+            <!-- <svg width="200" heigth="210">
+               <line x1="10" y1="10" x2="200" y2="100" fill="black" style="stroke: #0000;
+               stroke-linecap: round; stroke-width: 20;"/>
+                    
+                </svg>
+            <svg width="1000" heigth="1000">
+                <polyline style="stroke-linejoin: miter; stroke:black;
+                stroke-width: 12; fill: none;" points="100 100, 150 150, 200 100"/>
+
+                </svg>
+            <svg width="1000" heigth="1000">
+                <circle cx="100" cy="100" r="50" fill="blue" >
+                    
+                </svg>
+            <svg width="1000" heigth="1000">
+                <circle cx="100" cy="100" r="50" fill="brawn" >
+                    
+                </svg> -->
+    </div>
+
+   
+            
+
     <script>
-        // console.log("This is Aplle")
-        // var a = "Anuj";
-        // {
-        //     var a ="ANuj Kashyap";
-        //     console.log(a)
+        // function allowDrop(ev){
+        //     ev.preventDefualt();
         // }
-        //   console.log(a)
-        let a = prompt("What's your age?")
-          a = Number.parseInt(a)
-        if( a > 10 && a < 20){
-            console.log("Your age lie btw 10 & 20.")
-        }
-        else{
-            console.log("Your age dose not lie btw 10 & 20.")
-        }
+
+        // function drag(ev){
+        //     ev.dataTransfer.setData("image", ev.target.id);
+        // }
+
+        // function drop(ev){
+        //     ev.preventDefualt();
+
+        //     var data = ev.dataTransfer.getData("image");
+        //     ev.target.appendChild(document.getElementById(box));
+        // }
     </script>
+</body>
 </html>
